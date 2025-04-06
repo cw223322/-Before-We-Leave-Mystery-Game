@@ -1,5 +1,3 @@
-# -Before-We-Leave-Mystery-Game
-HAPPY 26TH BIRTHDAY VAGABOND!! GOOD LUCK HEHE 
 <!DOCTYPE html>
 <html lang="en">
 <head>
