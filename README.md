@@ -1,60 +1,150 @@
 # -Before-We-Leave-Mystery-Game
 HAPPY 26TH BIRTHDAY VAGABOND!! GOOD LUCK HEHE 
-[Uploading mystery.html…]()<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html><head><title></title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><img width="768" alt="mystery" src="https://github.com/user-attachments/assets/bfa6aa88-e6f2-44b6-95a1-772f3d951f1c" />
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before We Leave... Solve the Mystery!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #5d3a3a;
+            font-size: 2.5em;
+        }
+        .clue {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 1.2em;
+            border-radius: 4px;
+            border: 2px solid #ddd;
+            margin: 10px 0;
+            width: 80%;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #8fc7e2;
+            color: #fff;
+            border: none;
+            font-size: 1.2em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #6aa9c1;
+        }
+        #result {
+            font-size: 1.5em;
+            color: green;
+            margin-top: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+        .incorrect {
+            font-size: 1em;
+            color: red;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-<div style="page-break-before:always; page-break-after:always"><div><p>&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt; &#160; &#160;&lt;meta charset=&quot;UTF-8&quot;&gt; &#160; &#160;&lt;meta<br/>name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt; &#160; &#160;&lt;title&gt;Before We Leave...<br/>Solve the Mystery!&lt;/title&gt; &#160; &#160;&lt;style&gt; &#160; &#160; &#160; &#160;body &#160; &#160; &#160; &#160; &#160; &#160; font-family: Arial, sans-serif; &#160; &#160; &#160; &#160; &#160;<br/>&#160;background-color: #f0f8ff; &#160; &#160; &#160; &#160; &#160; &#160;color: #333; &#160; &#160; &#160; &#160; &#160; &#160;text-align: center; &#160; &#160; &#160; &#160; &#160; &#160;padding: 20px; &#160; &#160; &#160;<br/>&#160; &#160; &#160; &#160; &#160;h1 &#160; &#160; &#160; &#160; &#160; &#160; color: #5d3a3a; &#160; &#160; &#160; &#160; &#160; &#160;font-size: 2.5em; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;.clue &#160; &#160; &#160; &#160; &#160; &#160; background-color:<br/>#fff; &#160; &#160; &#160; &#160; &#160; &#160;border-radius: 8px; &#160; &#160; &#160; &#160; &#160; &#160;padding: 20px; &#160; &#160; &#160; &#160; &#160; &#160;margin: 20px; &#160; &#160; &#160; &#160; &#160; &#160;box-shadow: 0<br/>4px 6px rgba(0, 0, 0, 0.1); &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;input[type=&quot;text&quot;] &#160; &#160; &#160; &#160; &#160; &#160; padding: 10px; &#160; &#160; &#160; &#160; &#160; &#160;font-size:<br/>1.2em; &#160; &#160; &#160; &#160; &#160; &#160;border-radius: 4px; &#160; &#160; &#160; &#160; &#160; &#160;border: 2px solid #ddd; &#160; &#160; &#160; &#160; &#160; &#160;margin: 10px 0; &#160; &#160; &#160; &#160; &#160;<br/>&#160;width: 80%; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;.button &#160; &#160; &#160; &#160; &#160; &#160; padding: 10px 20px; &#160; &#160; &#160; &#160; &#160; &#160;background-color: #8fc7e2; &#160; &#160; &#160;<br/>&#160; &#160; &#160;color: #fff; &#160; &#160; &#160; &#160; &#160; &#160;border: none; &#160; &#160; &#160; &#160; &#160; &#160;font-size: 1.2em; &#160; &#160; &#160; &#160; &#160; &#160;border-radius: 4px; &#160; &#160; &#160; &#160; &#160;<br/>&#160;cursor: pointer; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;.button:hover &#160; &#160; &#160; &#160; &#160; &#160; background-color: #6aa9c1; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;#result &#160; &#160; &#160; &#160;<br/>&#160; &#160; font-size: 1.5em; &#160; &#160; &#160; &#160; &#160; &#160;color: green; &#160; &#160; &#160; &#160; &#160; &#160;margin-top: 20px; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;.hidden &#160; &#160; &#160; &#160; &#160; &#160;<br/>display: none; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;.incorrect &#160; &#160; &#160; &#160; &#160; &#160; font-size: 1em; &#160; &#160; &#160; &#160; &#160; &#160;color: red; &#160; &#160; &#160; &#160; &#160; &#160;margin-top:<br/>20px; &#160; &#160; &#160; &#160; &#160; &#160;&lt;/style&gt;&lt;/head&gt;&lt;body&gt; &#160; &#160;&lt;h1&gt;Before We Leave... Solve the Mystery! &lt;span<br/>class=&quot;emoji&quot;&gt;<br/></p>
-<p>! &quot;<br/></p>
-<p>&lt;/span&gt;&lt;/h1&gt; &#160; &#160; &#160; &#160;&lt;div class=&quot;clue&quot;&gt; &#160; &#160; &#160; &#160;&lt;p&gt;&lt;strong&gt;Clue 1:&lt;/strong&gt; I<br/>am something you often find in a home, and I&#8217;m used to create warmth or light. I may have a<br/>shade, or even a bulb. &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p># $<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160; &#160; &#160;&lt;input type=&quot;text&quot;<br/>id=&quot;answer1&quot; placeholder=&quot;Enter your answer...&quot;&gt; &#160; &#160; &#160; &#160;&lt;button class=&quot;button&quot;<br/>onclick=&quot;checkAnswer1()&quot;&gt;Check Answer&lt;/button&gt; &#160; &#160; &#160; &#160;&lt;p id=&quot;result1&quot; class=&quot;hidden&quot;&gt;Correct!<br/>The answer is 'lamp'. &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>&#10004;<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160; &#160; &#160;&lt;p id=&quot;incorrect1&quot;<br/>class=&quot;incorrect hidden&quot;&gt;Incorrect Vagabond! <br/></p>
-<p>&#10060;<br/></p>
-<p> Are you sure you're 26 years of age? &lt;span<br/>class=&quot;emoji&quot;&gt;<br/></p>
-<p>'<br/></p>
-<p>&lt;/span&gt; Try again! &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>(<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160;&lt;/div&gt; &#160; &#160; &#160; &#160;&lt;div<br/>class=&quot;clue&quot;&gt; &#160; &#160; &#160; &#160;&lt;p&gt;&lt;strong&gt;Clue 2:&lt;/strong&gt; I come in a glass, clear and sometimes paired<br/>with tonic or citrus. I&#8217;ve been a part of British tradition for centuries. &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>) *<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160; &#160; &#160;&lt;input type=&quot;text&quot; id=&quot;answer2&quot; placeholder=&quot;Enter your answer...&quot;&gt; &#160; &#160; &#160;<br/>&#160;&lt;button class=&quot;button&quot; onclick=&quot;checkAnswer2()&quot;&gt;Check Answer&lt;/button&gt; &#160; &#160; &#160; &#160;&lt;p id=&quot;result2&quot;<br/>class=&quot;hidden&quot;&gt;Correct! The answer is 'gin' (hint: rearrange). &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>&#10004;<br/></p>
-<p>&lt;/span&gt;<br/>&lt;/p&gt; &#160; &#160; &#160; &#160;&lt;p id=&quot;incorrect2&quot; class=&quot;incorrect hidden&quot;&gt;Incorrect Vagabond! <br/></p>
-<p>&#10060;<br/></p>
-<p> Are you sure<br/>you're 26 years of age? &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>'<br/></p>
-<p>&lt;/span&gt; Try again! &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>(<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160;&lt;/div&gt; &#160; &#160;&lt;div class=&quot;clue&quot;&gt; &#160; &#160; &#160; &#160;&lt;p&gt;&lt;strong&gt;Clue 3:&lt;/strong&gt; Think of &#8216;garden&#8217;,<br/>&#8216;eggs&#8217;, and &#8216;magic&#8217;. What do they have in common? &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>+ &#10024;<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160; &#160;<br/>&#160;&lt;input type=&quot;text&quot; id=&quot;answer3&quot; placeholder=&quot;Enter your answer...&quot;&gt; &#160; &#160; &#160; &#160;&lt;button class=&quot;button&quot;<br/>onclick=&quot;checkAnswer3()&quot;&gt;Check Answer&lt;/button&gt; &#160; &#160; &#160; &#160;&lt;p id=&quot;result3&quot; class=&quot;hidden&quot;&gt;Correct!<br/>The common letter is 'g'. &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>&#10004;<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160; &#160; &#160;&lt;p id=&quot;incorrect3&quot;<br/>class=&quot;incorrect hidden&quot;&gt;Incorrect Vagabond! <br/></p>
-<p>&#10060;<br/></p>
-<p> Are you sure you're 26 years of age? &lt;span<br/>class=&quot;emoji&quot;&gt;<br/></p>
-<p>'<br/></p>
-<p>&lt;/span&gt; Try again! &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>(<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160;&lt;/div&gt; &#160; &#160;&lt;div<br/>class=&quot;clue&quot;&gt; &#160; &#160; &#160; &#160;&lt;p&gt;&lt;strong&gt;Final Clue:&lt;/strong&gt; Combine what you&#8217;ve learned: a light,Hoath<br/>House, Chiddingstonedden in plain sight. What experience do these clues lead to? &lt;span<br/>class=&quot;emoji&quot;&gt;<br/></p>
-<p>- .<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160; &#160; &#160;&lt;input type=&quot;text&quot; id=&quot;finalAnswer&quot; placeholder=&quot;Enter<br/>final keyword...&quot;&gt; &#160; &#160; &#160; &#160;&lt;button class=&quot;button&quot; onclick=&quot;checkFinalAnswer()&quot;&gt;Check Final<br/>Answer&lt;/button&gt; &#160; &#160; &#160; &#160;&lt;p id=&quot;finalResult&quot; class=&quot;hidden&quot;&gt;Correct! You're going glamping at<br/>Hoath House! &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>&#10004;<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160; &#160; &#160;&lt;p id=&quot;incorrectFinal&quot; class=&quot;incorrect</p>
+    <h1>Before We Leave... Solve the Mystery! <span class="emoji">🕵️‍♂️🧩</span></h1>
+    
+    <div class="clue">
+        <p><strong>Clue 1:</strong> I am something you often find in a home, and I’m used to create warmth or light. I may have a shade, or even a bulb. <span class="emoji">🏠💡</span></p>
+        <input type="text" id="answer1" placeholder="Enter your answer...">
+        <button class="button" onclick="checkAnswer1()">Check Answer</button>
+        <p id="result1" class="hidden">Correct! The answer is 'lamp'. <span class="emoji">✔️</span></p>
+        <p id="incorrect1" class="incorrect hidden">Incorrect Vagabond! ❌ Are you sure you're 26 years of age? <span class="emoji">🤔</span> Try again! <span class="emoji">😘</span></p>
+    </div>
+    
+    <div class="clue">
+        <p><strong>Clue 2:</strong> I come in a glass, clear and sometimes paired with tonic or citrus. I’ve been a part of British tradition for centuries. <span class="emoji">🍸🌿</span></p>
+        <input type="text" id="answer2" placeholder="Enter your answer...">
+        <button class="button" onclick="checkAnswer2()">Check Answer</button>
+        <p id="result2" class="hidden">Correct! The answer is 'gin' (hint: rearrange). <span class="emoji">✔️</span></p>
+        <p id="incorrect2" class="incorrect hidden">Incorrect Vagabond! ❌ Are you sure you're 26 years of age? <span class="emoji">🤔</span> Try again! <span class="emoji">😘</span></p>
+    </div>
 
-</div></div>
-<div style="page-break-before:always; page-break-after:always"><div><p>hidden&quot;&gt;Incorrect Vagabond! <br/></p>
-<p>&#10060;<br/></p>
-<p> Are you sure you're 26 years of age? &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>'<br/></p>
-<p>&lt;/span&gt; Try again! &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>(<br/></p>
-<p>&lt;/span&gt;&lt;/p&gt; &#160; &#160;&lt;/div&gt; &#160; &#160;&lt;div id=&quot;address&quot;<br/>class=&quot;hidden&quot;&gt; &#160; &#160; &#160; &#160;&lt;p&gt;&lt;strong&gt;Destination:&lt;/strong&gt; &lt;span class=&quot;emoji&quot;&gt;<br/></p>
-<p>/ 0<br/></p>
-<p>&lt;/span&gt;<br/>Hoath House, Chiddingstone House, TN8 7DB&lt;/p&gt; &#160; &#160;&lt;/div&gt; &#160; &#160;&lt;script&gt; &#160; &#160; &#160; &#160;function<br/>checkAnswer1() &#160; &#160; &#160; &#160; &#160; &#160; const answer1 =<br/>document.getElementById('answer1').value.toLowerCase(); &#160; &#160; &#160; &#160; &#160; &#160;if (answer1 === 'lamp') &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160; &#160; document.getElementById('result1').classList.remove('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('incorrect1').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>document.getElementById('result1').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('incorrect1').classList.remove('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;function<br/>checkAnswer2() &#160; &#160; &#160; &#160; &#160; &#160; const answer2 =<br/>document.getElementById('answer2').value.toLowerCase(); &#160; &#160; &#160; &#160; &#160; &#160;if (answer2 === 'gin' ||<br/>answer2 === 'ing') &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; document.getElementById('result2').classList.remove('hidden'); &#160; &#160; &#160; &#160;<br/>&#160; &#160; &#160; &#160;document.getElementById('incorrect2').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>document.getElementById('result2').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('incorrect2').classList.remove('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;function<br/>checkAnswer3() &#160; &#160; &#160; &#160; &#160; &#160; const answer3 =<br/>document.getElementById('answer3').value.toLowerCase(); &#160; &#160; &#160; &#160; &#160; &#160;if (answer3 === 'g') &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>document.getElementById('result3').classList.remove('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('incorrect3').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>document.getElementById('result3').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('incorrect3').classList.remove('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;function<br/>checkFinalAnswer() &#160; &#160; &#160; &#160; &#160; &#160; const finalAnswer =<br/>document.getElementById('finalAnswer').value.toLowerCase(); &#160; &#160; &#160; &#160; &#160; &#160;if (finalAnswer ===<br/>'glamping') &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; document.getElementById('finalResult').classList.remove('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('address').classList.remove('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('incorrectFinal').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; else &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>document.getElementById('finalResult').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('address').classList.add('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160;<br/>&#160;document.getElementById('incorrectFinal').classList.remove('hidden'); &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&lt;/script&gt;<br/>&lt;/body&gt;&lt;/html&gt;</p>
+    <div class="clue">
+        <p><strong>Clue 3:</strong> Think of ‘garden’, ‘eggs’, and ‘magic’. What do they have in common? <span class="emoji">🌱✨</span></p>
+        <input type="text" id="answer3" placeholder="Enter your answer...">
+        <button class="button" onclick="checkAnswer3()">Check Answer</button>
+        <p id="result3" class="hidden">Correct! The common letter is 'g'. <span class="emoji">✔️</span></p>
+        <p id="incorrect3" class="incorrect hidden">Incorrect Vagabond! ❌ Are you sure you're 26 years of age? <span class="emoji">🤔</span> Try again! <span class="emoji">😘</span></p>
+    </div>
 
-</div></div>
-</body></html>
+    <div class="clue">
+        <p><strong>Final Clue:</strong> Combine what you’ve learned: a light,Hoath House, Chiddingstonedden in plain sight. What experience do these clues lead to? <span class="emoji">🔍🛋️</span></p>
+        <input type="text" id="finalAnswer" placeholder="Enter final keyword...">
+        <button class="button" onclick="checkFinalAnswer()">Check Final Answer</button>
+        <p id="finalResult" class="hidden">Correct! You're going glamping at Hoath House! <span class="emoji">✔️</span></p>
+        <p id="incorrectFinal" class="incorrect hidden">Incorrect Vagabond! ❌ Are you sure you're 26 years of age? <span class="emoji">🤔</span> Try again! <span class="emoji">😘</span></p>
+    </div>
+
+    <div id="address" class="hidden">
+        <p><strong>Destination:</strong> <span class="emoji">📍🏡</span> Hoath House, Chiddingstone House, TN8 7DB</p>
+    </div>
+
+    <script>
+        function checkAnswer1() {
+            const answer1 = document.getElementById('answer1').value.toLowerCase();
+            if (answer1 === 'lamp') {
+                document.getElementById('result1').classList.remove('hidden');
+                document.getElementById('incorrect1').classList.add('hidden');
+            } else {
+                document.getElementById('result1').classList.add('hidden');
+                document.getElementById('incorrect1').classList.remove('hidden');
+            }
+        }
+
+        function checkAnswer2() {
+            const answer2 = document.getElementById('answer2').value.toLowerCase();
+            if (answer2 === 'gin' || answer2 === 'ing') {
+                document.getElementById('result2').classList.remove('hidden');
+                document.getElementById('incorrect2').classList.add('hidden');
+            } else {
+                document.getElementById('result2').classList.add('hidden');
+                document.getElementById('incorrect2').classList.remove('hidden');
+            }
+        }
+
+        function checkAnswer3() {
+            const answer3 = document.getElementById('answer3').value.toLowerCase();
+            if (answer3 === 'g') {
+                document.getElementById('result3').classList.remove('hidden');
+                document.getElementById('incorrect3').classList.add('hidden');
+            } else {
+                document.getElementById('result3').classList.add('hidden');
+                document.getElementById('incorrect3').classList.remove('hidden');
+            }
+        }
+
+        function checkFinalAnswer() {
+            const finalAnswer = document.getElementById('finalAnswer').value.toLowerCase();
+            if (finalAnswer === 'glamping') {
+                document.getElementById('finalResult').classList.remove('hidden');
+                document.getElementById('address').classList.remove('hidden');
+                document.getElementById('incorrectFinal').classList.add('hidden');
+            } else {
+                document.getElementById('finalResult').classList.add('hidden');
+                document.getElementById('address').classList.add('hidden');
+                document.getElementById('incorrectFinal').classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
